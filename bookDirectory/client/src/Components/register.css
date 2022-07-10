@@ -1,0 +1,25 @@
+
+.register__page{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__button{
+    width: 70%;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid black;
+    color: black;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.register__button:hover{
+    background: black;
+    color: white;
+
+}

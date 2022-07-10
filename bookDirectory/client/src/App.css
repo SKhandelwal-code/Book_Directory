@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.form__page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20vh;
+}
+
+.form{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.create__screen{
+    display: flex;
+    flex-direction: row;
+}
+
+.page__heading{
+}
+
+.page_content{
+    width: 70vh;
+}
+
+.form__group{
+    margin: 20px 0;
+    width: 80%;
+
+}
+
+.form__input{
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px silver solid;
+    width: -webkit-fill-available;
+}
+
+
+.auth__page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.create__page{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    flex-wrap: wrap;
+}

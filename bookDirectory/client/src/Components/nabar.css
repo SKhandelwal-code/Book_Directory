@@ -1,0 +1,26 @@
+.navbar{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    font-size: large;
+    box-shadow: 0 10px 6px -6px whitesmoke;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+
+.nav__item{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav__item a{
+    color: black;
+}

@@ -1,0 +1,38 @@
+.login__page{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.login__input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+}
+
+.login__heading{
+    color: white;
+}
+
+.login__button{
+    width: 70%;
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.login__button:hover{
+    background: white;
+    color: black;
+
+}

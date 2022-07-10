@@ -1,0 +1,35 @@
+.book_item{
+    display: flex;
+    width: 80% ;
+    justify-content: space-between;
+    box-shadow: 0 0 5px 5px whitesmoke;
+    border: none;
+    margin-top: 20px;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+.text{
+    font-size: 12px;
+}
+
+.item__left{
+    width: 33%;
+}
+
+.item__center{
+    width: 33%;
+}
+
+/* .item__right{
+    width: 33%;
+
+} */
+
+.deleteButton{
+    padding: 8px 30px;
+    border: red 1px solid;
+    color: red;
+    background-color: transparent;
+    cursor: pointer;
+}
